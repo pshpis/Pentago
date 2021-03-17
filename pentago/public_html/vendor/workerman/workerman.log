@@ -1,0 +1,469 @@
+2020-07-08 22:26:50 pid:1 TypeError: Argument 1 passed to Pentago_Session::__construct() must be of the type int, null given, called in C:\xampp\htdocs\pentago\controller\websocket_controller.php on line 22 and defined in C:\xampp\htdocs\pentago\model\Pentago_Session.php:107
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(22): Pentago_Session->__construct(NULL)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(70): Workerman\Worker::runAll()
+#8 {main}
+2020-07-08 22:26:50 pid:1 Worker process terminated
+2020-07-08 22:30:12 pid:1 TypeError: Argument 1 passed to Pentago_Session::__construct() must be of the type int, null given, called in C:\xampp\htdocs\pentago\controller\websocket_controller.php on line 22 and defined in C:\xampp\htdocs\pentago\model\Pentago_Session.php:107
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(22): Pentago_Session->__construct(NULL)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(70): Workerman\Worker::runAll()
+#8 {main}
+2020-07-08 22:30:12 pid:1 Worker process terminated
+2020-07-08 22:30:59 pid:1 Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\pentago\controller\websocket_controller.php:17
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(70): Workerman\Worker::runAll()
+#7 {main}
+2020-07-08 22:30:59 pid:1 Worker process terminated
+2020-07-08 22:32:23 pid:1 Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\pentago\controller\websocket_controller.php:21
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(70): Workerman\Worker::runAll()
+#7 {main}
+2020-07-08 22:32:23 pid:1 Worker process terminated
+2020-07-08 22:34:19 pid:1 TypeError: Argument 1 passed to Pentago_Session::__construct() must be of the type int, null given, called in C:\xampp\htdocs\pentago\controller\websocket_controller.php on line 22 and defined in C:\xampp\htdocs\pentago\model\Pentago_Session.php:107
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(22): Pentago_Session->__construct(NULL)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(70): Workerman\Worker::runAll()
+#8 {main}
+2020-07-08 22:34:19 pid:1 Worker process terminated
+2020-07-08 22:34:53 pid:1 TypeError: Argument 1 passed to Pentago_Session::__construct() must be of the type int, null given, called in C:\xampp\htdocs\pentago\controller\websocket_controller.php on line 22 and defined in C:\xampp\htdocs\pentago\model\Pentago_Session.php:107
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(22): Pentago_Session->__construct(NULL)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(70): Workerman\Worker::runAll()
+#8 {main}
+2020-07-08 22:34:53 pid:1 Worker process terminated
+2020-07-08 22:36:48 pid:1 TypeError: Argument 1 passed to Online_Game_Session::is_game_session() must be of the type int, null given, called in C:\xampp\htdocs\pentago\controller\websocket_controller.php on line 38 and defined in C:\xampp\htdocs\pentago\model\Online_Game_Session.php:14
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(38): Online_Game_Session::is_game_session(NULL)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(70): Workerman\Worker::runAll()
+#8 {main}
+2020-07-08 22:36:48 pid:1 Worker process terminated
+2020-07-08 22:41:19 pid:1 TypeError: Argument 1 passed to Pentago_Session::__construct() must be of the type int, null given, called in C:\xampp\htdocs\pentago\controller\websocket_controller.php on line 25 and defined in C:\xampp\htdocs\pentago\model\Pentago_Session.php:107
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(25): Pentago_Session->__construct(NULL)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(73): Workerman\Worker::runAll()
+#8 {main}
+2020-07-08 22:41:19 pid:1 Worker process terminated
+2020-07-08 22:42:09 pid:1 TypeError: Argument 1 passed to Pentago_Session::__construct() must be of the type int, null given, called in C:\xampp\htdocs\pentago\controller\websocket_controller.php on line 25 and defined in C:\xampp\htdocs\pentago\model\Pentago_Session.php:107
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(25): Pentago_Session->__construct(NULL)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(73): Workerman\Worker::runAll()
+#8 {main}
+2020-07-08 22:42:09 pid:1 Worker process terminated
+2020-07-08 22:43:53 pid:1 TypeError: Argument 1 passed to Pentago_Session::__construct() must be of the type int, null given, called in C:\xampp\htdocs\pentago\controller\websocket_controller.php on line 26 and defined in C:\xampp\htdocs\pentago\model\Pentago_Session.php:107
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(26): Pentago_Session->__construct(NULL)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(74): Workerman\Worker::runAll()
+#8 {main}
+2020-07-08 22:43:53 pid:1 Worker process terminated
+2020-07-08 22:45:52 pid:1 TypeError: Argument 1 passed to Pentago_Session::__construct() must be of the type int, null given, called in C:\xampp\htdocs\pentago\controller\websocket_controller.php on line 26 and defined in C:\xampp\htdocs\pentago\model\Pentago_Session.php:107
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(26): Pentago_Session->__construct(NULL)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(74): Workerman\Worker::runAll()
+#8 {main}
+2020-07-08 22:45:52 pid:1 Worker process terminated
+2020-07-08 22:46:41 pid:1 Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\pentago\controller\websocket_controller.php:18
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(71): Workerman\Worker::runAll()
+#7 {main}
+2020-07-08 22:46:41 pid:1 Worker process terminated
+2020-07-08 22:47:30 pid:1 Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\pentago\controller\websocket_controller.php:21
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(70): Workerman\Worker::runAll()
+#7 {main}
+2020-07-08 22:47:30 pid:1 Worker process terminated
+2020-07-08 22:49:46 pid:1 Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\pentago\controller\websocket_controller.php:21
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(70): Workerman\Worker::runAll()
+#7 {main}
+2020-07-08 22:49:46 pid:1 Worker process terminated
+2020-07-08 22:50:33 pid:1 Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\pentago\controller\websocket_controller.php:21
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(70): Workerman\Worker::runAll()
+#7 {main}
+2020-07-08 22:50:33 pid:1 Worker process terminated
+2020-07-08 22:51:17 pid:1 Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\pentago\controller\websocket_controller.php:21
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Object(stdClass))
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(70): Workerman\Worker::runAll()
+#7 {main}
+2020-07-08 22:51:17 pid:1 Worker process terminated
+2020-07-08 22:52:34 pid:1 TypeError: Argument 1 passed to Pentago_Session::__construct() must be of the type int, null given, called in C:\xampp\htdocs\pentago\controller\websocket_controller.php on line 22 and defined in C:\xampp\htdocs\pentago\model\Pentago_Session.php:107
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(22): Pentago_Session->__construct(NULL)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(70): Workerman\Worker::runAll()
+#8 {main}
+2020-07-08 22:52:34 pid:1 Worker process terminated
+2020-07-08 22:52:52 pid:1 TypeError: Argument 1 passed to Pentago_Session::__construct() must be of the type int, null given, called in C:\xampp\htdocs\pentago\controller\websocket_controller.php on line 22 and defined in C:\xampp\htdocs\pentago\model\Pentago_Session.php:107
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(22): Pentago_Session->__construct(NULL)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(70): Workerman\Worker::runAll()
+#8 {main}
+2020-07-08 22:52:52 pid:1 Worker process terminated
+2020-07-08 22:53:38 pid:1 TypeError: Argument 1 passed to Pentago_Session::__construct() must be of the type int, null given, called in C:\xampp\htdocs\pentago\controller\websocket_controller.php on line 23 and defined in C:\xampp\htdocs\pentago\model\Pentago_Session.php:107
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(23): Pentago_Session->__construct(NULL)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(71): Workerman\Worker::runAll()
+#8 {main}
+2020-07-08 22:53:38 pid:1 Worker process terminated
+2020-07-08 22:54:10 pid:1 TypeError: Argument 1 passed to Pentago_Session::__construct() must be of the type int, null given, called in C:\xampp\htdocs\pentago\controller\websocket_controller.php on line 24 and defined in C:\xampp\htdocs\pentago\model\Pentago_Session.php:107
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(24): Pentago_Session->__construct(NULL)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(72): Workerman\Worker::runAll()
+#8 {main}
+2020-07-08 22:54:10 pid:1 Worker process terminated
+2020-07-09 11:05:28 pid:1 TypeError: Argument 1 passed to Pentago_Session::__construct() must be of the type int, null given, called in C:\xampp\htdocs\pentago\controller\websocket_controller.php on line 24 and defined in C:\xampp\htdocs\pentago\model\Pentago_Session.php:107
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(24): Pentago_Session->__construct(NULL)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(72): Workerman\Worker::runAll()
+#8 {main}
+2020-07-09 11:05:28 pid:1 Worker process terminated
+2020-07-09 11:06:12 pid:1 TypeError: Argument 1 passed to Pentago_Session::__construct() must be of the type int, null given, called in C:\xampp\htdocs\pentago\controller\websocket_controller.php on line 24 and defined in C:\xampp\htdocs\pentago\model\Pentago_Session.php:107
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(24): Pentago_Session->__construct(NULL)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(72): Workerman\Worker::runAll()
+#8 {main}
+2020-07-09 11:06:12 pid:1 Worker process terminated
+2020-07-09 11:12:49 pid:1 Exception: You can't send(array) to client, you need to convert it to a string.  in C:\xampp\htdocs\pentago\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(Array, Object(Workerman\Connection\TcpConnection))
+#1 C:\xampp\htdocs\pentago\controller\websocket_controller.php(30): Workerman\Connection\TcpConnection->send(Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #40)
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#7 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#8 C:\xampp\htdocs\pentago\controller\websocket_controller.php(72): Workerman\Worker::runAll()
+#9 {main}
+2020-07-09 11:12:49 pid:1 Worker process terminated
+2020-07-09 11:16:29 pid:1 Exception: You can't send(array) to client, you need to convert it to a string.  in C:\xampp\htdocs\pentago\vendor\workerman\workerman\Protocols\Websocket.php:236
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(344): Workerman\Protocols\Websocket::encode(Array, Object(Workerman\Connection\TcpConnection))
+#1 C:\xampp\htdocs\pentago\controller\websocket_controller.php(29): Workerman\Connection\TcpConnection->send(Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #40)
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#7 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#8 C:\xampp\htdocs\pentago\controller\websocket_controller.php(72): Workerman\Worker::runAll()
+#9 {main}
+2020-07-09 11:16:29 pid:1 Worker process terminated
+2020-07-09 12:29:59 pid:1 Error: Call to a member function send() on null in C:\xampp\htdocs\pentago\controller\websocket_controller.php:33
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(75): Workerman\Worker::runAll()
+#7 {main}
+2020-07-09 12:29:59 pid:1 Worker process terminated
+2020-07-09 12:31:41 pid:1 Error: Call to a member function send() on null in C:\xampp\htdocs\pentago\controller\websocket_controller.php:31
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(75): Workerman\Worker::runAll()
+#7 {main}
+2020-07-09 12:31:41 pid:1 Worker process terminated
+2020-07-10 21:42:46 pid:1 Error: Call to a member function send() on null in C:\xampp\htdocs\pentago\controller\websocket_controller.php:35
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(78): Workerman\Worker::runAll()
+#7 {main}
+2020-07-10 21:42:46 pid:1 Worker process terminated
+2020-07-10 21:43:09 pid:1 Error: Call to a member function send() on null in C:\xampp\htdocs\pentago\controller\websocket_controller.php:33
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(78): Workerman\Worker::runAll()
+#7 {main}
+2020-07-10 21:43:09 pid:1 Worker process terminated
+2020-07-10 22:01:44 pid:1 Error: Call to a member function send() on null in C:\xampp\htdocs\pentago\controller\websocket_controller.php:37
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(80): Workerman\Worker::runAll()
+#7 {main}
+2020-07-10 22:01:44 pid:1 Worker process terminated
+2020-07-13 20:40:26 pid:1 Error: Call to a member function send() on null in C:\xampp\htdocs\pentago\controller\websocket_controller.php:37
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(83): Workerman\Worker::runAll()
+#7 {main}
+2020-07-13 20:40:26 pid:1 Worker process terminated
+2020-07-14 13:21:22 pid:1 Error: Typed property Online_Game_Session::$id must not be accessed before initialization in C:\xampp\htdocs\pentago\model\Online_Game_Session.php:140
+Stack trace:
+#0 C:\xampp\htdocs\pentago\model\Online_Game_Session.php(190): Online_Game_Session->set_players_time(30)
+#1 C:\xampp\htdocs\pentago\model\Pentago_Session.php(108): Online_Game_Session->__construct(31)
+#2 C:\xampp\htdocs\pentago\controller\websocket_controller.php(24): Pentago_Session->__construct(31)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#7 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#8 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#9 C:\xampp\htdocs\pentago\controller\websocket_controller.php(123): Workerman\Worker::runAll()
+#10 {main}
+2020-07-14 13:21:22 pid:1 Worker process terminated
+2020-07-14 13:26:58 pid:1 Error: Typed property Online_Game_Session::$id must not be accessed before initialization in C:\xampp\htdocs\pentago\model\Online_Game_Session.php:140
+Stack trace:
+#0 C:\xampp\htdocs\pentago\model\Online_Game_Session.php(190): Online_Game_Session->set_players_time(30)
+#1 C:\xampp\htdocs\pentago\model\Pentago_Session.php(108): Online_Game_Session->__construct(31)
+#2 C:\xampp\htdocs\pentago\controller\websocket_controller.php(24): Pentago_Session->__construct(31)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#7 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#8 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#9 C:\xampp\htdocs\pentago\controller\websocket_controller.php(123): Workerman\Worker::runAll()
+#10 {main}
+2020-07-14 13:26:58 pid:1 Worker process terminated
+2020-07-29 21:05:38 pid:1 Error: Call to a member function send() on null in C:\xampp\htdocs\pentago\controller\websocket_controller.php:48
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(148): Workerman\Worker::runAll()
+#7 {main}
+2020-07-29 21:05:38 pid:1 Worker process terminated
+2020-07-30 12:52:22 pid:1 TypeError: Typed property Online_Game_Session::$game_time must be int, null used in C:\xampp\htdocs\pentago\controller\websocket_controller.php:27
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #35)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(150): Workerman\Worker::runAll()
+#7 {main}
+2020-07-30 12:52:22 pid:1 Worker process terminated
+2020-07-30 21:18:38 pid:1 TypeError: Argument 1 passed to Online_Game_Session::is_game_session() must be of the type int, null given, called in C:\xampp\htdocs\pentago\controller\websocket_controller.php on line 85 and defined in C:\xampp\htdocs\pentago\model\Online_Game_Session.php:20
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(85): Online_Game_Session::is_game_session(NULL)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #139)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(156): Workerman\Worker::runAll()
+#8 {main}
+2020-07-30 21:18:38 pid:1 Worker process terminated
+2020-07-30 21:55:20 pid:1 Error: Call to a member function send() on null in C:\xampp\htdocs\pentago\controller\websocket_controller.php:72
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #261)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(172): Workerman\Worker::runAll()
+#7 {main}
+2020-07-30 21:55:20 pid:1 Worker process terminated
+2020-07-30 22:29:54 pid:1 Error: Call to a member function set_lose_games() on bool in C:\xampp\htdocs\pentago\model\Online_Game_Session.php:330
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(76): Online_Game_Session->end_session()
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #35)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(174): Workerman\Worker::runAll()
+#8 {main}
+2020-07-30 22:29:54 pid:1 Worker process terminated
+2020-07-30 22:48:59 pid:1 Error: Call to a member function set_lose_games() on bool in C:\xampp\htdocs\pentago\model\Online_Game_Session.php:330
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(75): Online_Game_Session->end_session()
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #4734)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(168): Workerman\Worker::runAll()
+#8 {main}
+2020-07-30 22:48:59 pid:1 Worker process terminated
+2020-08-03 21:35:23 pid:1 Error: Call to a member function set_lose_games() on bool in C:\xampp\htdocs\pentago\model\Online_Game_Session.php:337
+Stack trace:
+#0 C:\xampp\htdocs\pentago\controller\websocket_controller.php(74): Online_Game_Session->end_session()
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #57)
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#6 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#7 C:\xampp\htdocs\pentago\controller\websocket_controller.php(167): Workerman\Worker::runAll()
+#8 {main}
+2020-08-03 21:35:23 pid:1 Worker process terminated
+2020-08-03 21:37:37 pid:1 Error: Cannot access protected property Pentago_Session::$game_session_finish in C:\xampp\htdocs\pentago\controller\websocket_controller.php:64
+Stack trace:
+#0 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Connection\TcpConnection.php(660): {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#1 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #74)
+#2 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(2408): Workerman\Events\Select->loop()
+#3 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1404): Workerman\Worker->run()
+#4 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(1347): Workerman\Worker::forkWorkersForWindows()
+#5 C:\xampp\htdocs\pentago\vendor\workerman\workerman\Worker.php(546): Workerman\Worker::forkWorkers()
+#6 C:\xampp\htdocs\pentago\controller\websocket_controller.php(167): Workerman\Worker::runAll()
+#7 {main}
+2020-08-03 21:37:37 pid:1 Worker process terminated

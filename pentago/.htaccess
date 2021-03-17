@@ -1,0 +1,17 @@
+RewriteEngine on
+
+#RewriteRule /css/([^\/]+).css$ css/$1.css [L]
+
+RewriteRule ^main$ http://localhost/pentago/view/main.php
+RewriteRule ^login$ http://localhost/pentago/view/login.php
+RewriteRule ^signup$ http://localhost/pentago/view/signup.php
+RewriteRule ^signup$ http://localhost/pentago/view/friends.php
+RewriteRule ^rules$ http://localhost/pentago/view/rules.php
+RewriteRule ^play$ http://localhost/pentago/view/game.php
+RewriteRule ^account$ http://localhost/pentago/view/account.php
+RewriteRule ^friends$ http://localhost/pentago/view/friends.php
+RewriteRule ^signup_complete$ http://localhost/pentago/view/signup_complete.php
+RewriteRule ^activate$ http://localhost/pentago/view/activate_account.php
+
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.+)/$ /$1 [R=301,L]

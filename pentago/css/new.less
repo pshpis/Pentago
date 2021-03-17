@@ -1,0 +1,599 @@
+@body_color: #2B2A26;
+@text_color: darken(white, 2%);
+@btn-primary-color: lighten(blue, 10%);
+
+html, body{
+  background: url("../img/cell.png");
+  color: @text_color;
+  height: 100%;
+  width: 100%;
+}
+
+.btn-primary{
+  text-decoration: none;
+  background: @btn-primary-color;
+  border-radius: 3px;
+  color: white;
+  padding: 5px;
+  border: none;
+  transition: .3s all;
+
+  &:hover{
+    background: lighten(@btn-primary-color, 4%);
+  }
+
+}
+
+
+a{
+  color: #82befe;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+
+  &:active{
+    border: none;
+    outline: none;
+  }
+}
+
+.side-nav{
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow-x: hidden;
+  transition: .5s;
+  z-index: 99;
+
+  a{
+    opacity: 70%;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+
+    &.__selected{
+      opacity: 1;
+    }
+
+    &:hover{
+      opacity: 1;
+    }
+  }
+
+  .logo{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: white 1px dashed;
+  }
+
+  .author{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .closebtn{
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  @media screen and (max-width: 700px){
+    width: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+
+    a{
+      font-size: 20px;
+    }
+
+    .closebtn{
+      display: block;
+    }
+  }
+}
+
+.top-nav{
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  transition: .3s all;
+
+  .burger{
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 5px;
+    right: 5px;
+  }
+
+  .logo{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    //padding: 20px 0;
+    //border-bottom: white 1px dashed;
+  }
+
+  @media screen and (max-width: 700px){
+    display: block;
+  }
+}
+
+.main{
+  padding: 0 10px;
+  margin-left: 200px;
+  height: 100%;
+  transition: .3s all;
+
+  @media screen and (max-width: 700px){
+    margin-left: 0;
+    padding: 52px 10px 0;
+  }
+}
+
+
+.play {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+
+
+  &_cell {
+    text-decoration: none;
+    color: inherit;
+
+    font-size: 22px;
+    grid-column: span 2;
+    text-align: center;
+    padding: 7px 0;
+    border: 1px solid darken(white, 10%);
+    border-radius: 5px;
+    transition: .3s all;
+
+    &:hover {
+      background-color: darken(white, 10%);
+      color: #a31717;
+    }
+
+    @media screen and (max-width: 500px){
+      grid-column: span 3;
+    }
+  }
+
+
+}
+
+h2{
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  padding: 8px 0px;
+  font-weight: bold;
+}
+
+.games{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+  &_cell{
+    grid-column: span 6;
+    border: 1px solid darken(white, 10%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 19px;
+    margin-bottom: 8px;
+    transition: .3s all;
+
+    .player{
+      float: left;
+
+      &_rating{
+        display: inline-block;
+        font-size: 12px;
+      }
+
+      &_name{
+        display: inline-block;
+      }
+    }
+
+    &:hover{
+      color: #a31717;
+      background-color: darken(white, 10%);
+    }
+  }
+}
+
+.account{
+  height: 100%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+  font-size: 18px;
+
+  &_card{
+    table{
+      margin-top: 10px;
+      table-layout: fixed;
+      width: 300px;
+      border-spacing: 0;
+      border-collapse: separate;
+      border-radius: 10px;
+      text-align: center;
+
+      tr:nth-child(even){
+        background-color: darken(@body_color, 2%);
+      }
+
+      tr:nth-child(odd){
+        background-color: lighten(@body_color, 2%);
+      }
+
+      td, th{
+        padding: .5em;
+      }
+    }
+  }
+
+  h2{
+    padding-top: 0;
+  }
+
+}
+
+.rules{
+  height: 100%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-size: 18px;
+
+  h2{
+    padding-top: 0;
+  }
+
+  &_card{
+    max-width: 880px;
+
+    @media screen and (min-device-width: 1600px){
+      max-width: 1080px;
+    }
+  }
+
+}
+
+.friends{
+  height: 100%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+  font-size: 18px;
+
+  &_card{
+    table{
+
+      margin-top: 10px;
+      //table-layout: fixed;
+      width: 300px;
+      border-spacing: 0;
+      border-collapse: separate;
+      border-radius: 10px;
+
+      tr:nth-child(even){
+        background-color: darken(@body_color, 2%);
+      }
+
+      tr:nth-child(odd){
+        background-color: lighten(@body_color, 2%);
+      }
+
+      td, th{
+        padding: .5em;
+      }
+    }
+  }
+
+  h2{
+    padding-top: 0;
+  }
+}
+
+.modal {
+  display: none;
+  z-index: 9998;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  transition: .3s all;
+
+  &_close{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  &-content {
+    //display: none;
+    z-index: 9999;
+    font-size: 19px;
+    padding: 5px 0 0;
+    background-color: @body_color;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    //border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    //height: 80%;
+    color: white;
+    position: relative;
+
+    label{
+      display: inline-block;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    input[type=text], input[type=password], input[type=email]{
+      width: 100%;
+      padding: 8px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      margin-bottom: 12px;
+    }
+
+    button{
+      transition: .3s all;
+      background-color: blue;
+      color: white;
+      padding: 10px;
+      margin: 8px 0 18px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+
+      &:hover{
+        background-color: darken(blue, 3%);
+      }
+    }
+
+    .container{
+      padding: 0 30px;
+    }
+
+    .forgot-container{
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 30px;
+      background-color: lighten(@body_color, 10%);
+    }
+  }
+}
+
+@game_desk_color: #a31717;
+@game_desk_width: 430px;
+
+.game{
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 100%;
+
+  font-size: 18px;
+
+  &-preloader{
+    padding: 10px;
+  }
+
+  .preloader__image {
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+  }
+
+  @keyframes preloader-rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  &_card{
+    width: 100%;
+
+    //@media screen and (max-width: 800px) {
+    //  width: 70%;
+    //}
+    //
+    //@media screen and (max-width: 600px) {
+    //  width: 80%;
+    //}
+    //
+    //@media screen and (max-width: 500px) {
+    //  width: 100%;
+    //}
+
+    .game_desk{
+      width: 100%;
+      height: 100%;
+
+      background-color: gray;
+
+      border-radius: 10px;
+
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      grid-gap: 10px;
+
+      .quarter__choose{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        //box-shadow: @facebook-shadow;
+        transform: scale(1.05);
+      }
+
+
+      .game_quarter{
+        &-cont{
+          transition: .5s all;
+        }
+
+        transition: .5s all;
+        padding: 5px;
+        background-color: @game_desk_color;
+        grid-column: span 1;
+        border: white solid 1px;
+
+        border-radius: 10px;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        .game_cell{
+          grid-column: span 1;
+          display: grid;
+          place-items: center;
+          padding: 2px;
+
+          &_inner{
+            background-color: darken(@game_desk_color, 5%);
+            border-radius: 50%;
+
+            width: 50px;
+            height: 50px;
+
+            @media screen and (max-width: 355px){
+              width: 40px;
+              height: 40px;
+            }
+
+            .figure{
+              width: 100%;
+              height: 100%;
+              //margin-top: 10px;
+              //margin-left: 10px;
+              border-radius: 50%;
+            }
+
+            .figure__black{
+              background: black;
+            }
+
+            .figure__white{
+              background: white;
+            }
+
+          }
+
+        }
+      }
+    }
+  }
+
+  &_panel{
+    background-color: @body_color;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    .give-up{
+      color: white;
+      border: none;
+      transition: .3s all;
+      background-color: blue;
+      border-radius: 6px;
+
+      &:hover{
+        background-color: darken(blue, 15%);
+      }
+    }
+
+    .rotate-btn{
+      color: white;
+      font-size: 30px;
+    }
+  }
+
+  .game_player{
+
+    padding: 6px 0;
+    background-color: @body_color;
+    line-height: 22px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+
+    .figure{
+      width: 20px;
+      height: 20px;
+      //margin: 10px;
+      //margin-top: 10px;
+      //margin-left: 10px;
+      border-radius: 50%;
+    }
+
+    .figure__black{
+      background: black;
+    }
+
+    .figure__white{
+      background: white;
+    }
+
+    .player_name{
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .player_time{
+      margin-left: auto;
+      margin-right: 5px;
+    }
+
+    &_2{
+      flex-direction: row-reverse;
+
+      .player_time{
+        margin-left: 5px;
+        margin-right: auto;
+      }
+      //flex-direction: row-reverse;
+    }
+
+    .player_burger{
+      font-size: 26px;
+      margin: 0 5px;
+    }
+
+    .player_rating{
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: lighter;
+      margin: 0 10px;
+    }
+  }
+}

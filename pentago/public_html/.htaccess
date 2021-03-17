@@ -1,0 +1,16 @@
+RewriteEngine on
+
+#RewriteRule /css/([^\/]+).css$ css/$1.css [L]
+
+RewriteRule ^main$ /view/main.php
+RewriteRule ^login$ /view/login.php
+RewriteRule ^signup$ /view/signup.php
+RewriteRule ^rules$ /view/rules.php
+RewriteRule ^play$ /view/game.php
+RewriteRule ^account$ /view/account.php
+RewriteRule ^friends$ /view/friends.php
+RewriteRule ^signup_complete$ /view/signup_complete.php
+RewriteRule ^activate$ /view/activate_account.php
+
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.+)/$ /$1 [R=301,L]
